@@ -22,6 +22,10 @@ Treść poleceń: [`TI.1_Excel.E4+E5+E6_InstrukcjaLab.pdf`](./TI.1_Excel.E4+E5+E
 > Punktem wyjścia zadania E4 była waga 100 g. Przy tej wadze ZYSK wynosił **−2 019 €**.
 > Zadanie E5 zmieniło wagę na 90,386 g. Dlatego w gotowym pliku widzisz ZYSK 10 000 €.
 > Wartość −2 019 € nadal występuje w Tabeli 7 dla wagi 100 g.
+> Komentarz w komórce `I57` przypomina oba wyniki.
+
+Plik zawiera zapisane wyniki formuł. Liczby są widoczne od razu po otwarciu.
+Nie trzeba czekać na przeliczenie arkusza.
 
 ---
 
@@ -266,9 +270,12 @@ Magic Stufff i woda mają poniżej 1%.
 
 ## 6. Uwagi techniczne
 
-* Plik zapisuje się z pełnym przeliczeniem przy otwarciu.
+* Plik ma zapisane formuły i ich wyniki. Dlatego liczby widać od razu.
 * Formuły są w języku angielskim (format pliku). Polski Excel pokazuje je po polsku.
 * Tabele danych i scenariusze działają w Excelu 2016 lub nowszym.
+* W Excelu tabele danych przeliczają się po zmianie `C9`, `C6` lub `E14`.
+* LibreOffice może nie odświeżać tabel danych. Naciśnij `F9` albo otwórz plik w Excelu.
+* Scenariusze są zapisane w Menedżerze scenariuszy. Każdy ma trzy zmieniane komórki.
 * Po zmianie danych wejściowych naciśnij `F9`, jeśli wykresy się nie odświeżą.
 * Nie zmieniaj ręcznie komórek `C62:C82` i `F62:N72`. To wyniki tabel danych.
 * Nazwy zdefiniowane: `Cena_1_parowki`, `Koszt_Smoczego_sadla`, `Koszt_Mrowczego_miesa`, `Koszty_roczne_*`, `ZYSK`.
