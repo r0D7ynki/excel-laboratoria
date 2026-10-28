@@ -36,4 +36,4 @@ Część II: Zaawansowane formuły, modelowanie, analiza decyzyjna i wizualizacj
 **Zakres tematyczny:**
 * **E4**: Adresowanie mieszane komórek i funkcje wyszukiwania (obliczanie wag i kosztów składników, obsługa błędów `JEŻELI`, `MAX`, `INDEKS` + `PODAJ.POZYCJĘ`, `WYSZUKAJ.PIONOWO`).
 * **E5**: Analiza warunkowa „co-jeśli” (narzędzie Szukaj wyniku, tabele danych, menedżer scenariuszy: Bieżący, Optymistyczny, Pesymistyczny).
-* **E6**: Sporządzanie wykresów (wykres kolumnowy kosztów w czasie, wykres kołowy struktury kosztów, tytuły, legendy, osie i etykiety danych).
+* **E6**: Sporządzanie wykresów (kolumnowy kosztów składników w czasie, kołowy struktury rocznych kosztów, liniowy przebiegu kosztów całkowitych; tytuły, legendy, osie i etykiety danych).

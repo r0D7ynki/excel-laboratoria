@@ -230,20 +230,43 @@ Pozostałe serie mają domyślne kolory motywu.
 | Etykiety kategorii | `D35:H35` |
 | Tytuł | „Struktura rocznych kosztów składników” |
 | Legenda | po prawej stronie |
-| Etykiety danych | nazwa składnika i procent |
+| Etykiety danych | nazwa składnika i procent (jedno miejsce po przecinku) |
 
 Wykres pokazuje strukturę kosztów w stanie końcowym.
-Największy udział ma mrówcze mięso: 74%.
-Smocze sadło ma 21%.
-Makulatura ma 4%.
-Magic Stufff i woda mają poniżej 1%.
+Największy udział ma mrówcze mięso: 74,2%.
+Smocze sadło ma 20,9%.
+Makulatura ma 4,2%.
+Magic Stufff ma 0,6%, a woda 0,1%.
 
-### 4.3. Układ i wydruk
+### 4.3. Wykres przebiegu w czasie (zadanie E6.2)
+
+Instrukcja każe wybrać typ `Wstawianie` / `Wykresy przebiegu w czasie`.
+Ten typ powstaje w Excelu tylko na bazie tabeli przestawnej.
+Dlatego arkusz zawiera wykres liniowy z markerami po miesiącach.
+Pokazuje ten sam przebieg w czasie, a dane bierze z kolumny `Razem`.
+
+| Element | Wartość |
+| --- | --- |
+| Typ | liniowy z markerami |
+| Dane | `I36:I47` (prawa biała kolumna `Razem` z Tabeli 4) |
+| Nazwa serii | `Razem` (`I35`) |
+| Etykiety osi X | `B36:B47` (miesiące) |
+| Tytuł | „Przebieg kosztów całkowitych w czasie (styczeń–grudzień)” |
+| Tytuł osi X | „Miesiąc” |
+| Tytuł osi Y | „Koszt [€]” |
+| Legenda | na dole |
+
+Wykres pokazuje wzrost kosztów od stycznia do czerwca.
+Potem koszty spadają w lipcu i sierpniu, a od września znowu rosną.
+
+### 4.4. Układ i wydruk
 
 * Wykres kolumnowy jest zakotwiczony w komórce `A85`.
 * Wykres kołowy jest zakotwiczony w komórce `A106`.
-* Arkusz ma orientację poziomą i skalowanie do szerokości strony.
-* Wykresy mają osobne strony wydruku.
+* Wykres liniowy jest zakotwiczony w komórce `A132`.
+* Arkusz ma orientację poziomą i skalowanie 90%.
+* Ręczne podziały stron są po wierszach 32, 58, 83, 104 i 131.
+* Każdy wykres zajmuje osobną stronę wydruku.
 
 ---
 
@@ -265,6 +288,10 @@ Magic Stufff i woda mają poniżej 1%.
 | ZYSK – scenariusz Bieżący | 10 000,00 € | 10 000,00 € |
 | ZYSK – scenariusz Optymistyczny | 57 348,41 € | 57 348,41 € |
 | ZYSK – scenariusz Pesymistyczny | −37 348,41 € | −37 348,41 € |
+| Wykres kolumnowy – zakres danych | `D36:H47` | `D36:H47` |
+| Wykres kołowy – zakres danych | `D48:H48` | `D48:H48` |
+| Wykres liniowy – zakres danych | `I36:I47` | `I36:I47` |
+| Liczba wykresów w arkuszu | 3 | 3 |
 
 ---
 
