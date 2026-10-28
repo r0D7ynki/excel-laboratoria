@@ -3,6 +3,7 @@
 Kompletne rozwiązanie laboratorium dla spółki Hog-Dog sp. z o.o.
 Plik ze skoroszytem: [`TI.1_Excel.E4+E5+E6_PlikRoboczy.xlsx`](./TI.1_Excel.E4+E5+E6_PlikRoboczy.xlsx)
 Treść poleceń: [`TI.1_Excel.E4+E5+E6_InstrukcjaLab.pdf`](./TI.1_Excel.E4+E5+E6_InstrukcjaLab.pdf)
+Instrukcja klikania po kliknięciu: [`../INSTRUKCJA-KROK-PO-KROKU.md`](../INSTRUKCJA-KROK-PO-KROKU.md) (działy 4–6)
 
 ---
 

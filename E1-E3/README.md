@@ -5,6 +5,8 @@ Plik `TI.1_Excel.E1+E2+E3_PlikRoboczy.xlsx` przechodzi przez wszystkie zadania
 z tematów E1, E2 i E3.
 Ten dokument pokazuje, co trzeba było zrobić i jak to zostało zrobione.
 
+Instrukcja klikania po kliknięciu: [`../INSTRUKCJA-KROK-PO-KROKU.md`](../INSTRUKCJA-KROK-PO-KROKU.md) (działy 1–3).
+
 ---
 
 ## 1. Zawartość skoroszytu

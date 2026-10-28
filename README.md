@@ -4,6 +4,8 @@ Repozytorium zawiera materiały, instrukcje oraz ukończone pliki robocze z labo
 
 Zakres: **E1–E6** (dwie części, wszystkie zadania wykonane).
 
+**Pełna instrukcja wykonania:** [`INSTRUKCJA-KROK-PO-KROKU.md`](./INSTRUKCJA-KROK-PO-KROKU.md) – każde polecenie klik po kliku, z adresami komórek i ścieżkami na wstążce.
+
 ---
 
 ## Struktura katalogów
