@@ -4,6 +4,8 @@ Ten dokument opisuje całą drogę do gotowych skoroszytów.
 Każdy krok podaje ścieżkę na wstążce, komórkę i wynik, który ma się pojawić.
 Kolejność jest taka sama jak w plikach PDF z poleceniami.
 
+**Zakres:** E1–E6. Część III (E7–E9) ma osobną instrukcję: [`E7-E9/INSTRUKCJA-KROK-PO-KROKU.md`](./E7-E9/INSTRUKCJA-KROK-PO-KROKU.md).
+
 **Spis treści**
 
 0. Zanim zaczniesz

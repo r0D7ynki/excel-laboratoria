@@ -2,9 +2,11 @@
 
 Repozytorium zawiera materiały, instrukcje oraz ukończone pliki robocze z laboratoriów z arkusza kalkulacyjnego (Microsoft Excel) w ramach przedmiotu **Technologie Informacyjne** (Politechnika Wrocławska, Wydział Zarządzania).
 
-Zakres: **E1–E6** (dwie części, wszystkie zadania wykonane).
+Zakres: **E1–E9** (trzy części, wszystkie zadania wykonane).
 
-**Pełna instrukcja wykonania:** [`INSTRUKCJA-KROK-PO-KROKU.md`](./INSTRUKCJA-KROK-PO-KROKU.md) – każde polecenie klik po kliku, z adresami komórek i ścieżkami na wstążce.
+**Instrukcja dla E1–E6:** [`INSTRUKCJA-KROK-PO-KROKU.md`](./INSTRUKCJA-KROK-PO-KROKU.md) – każde polecenie klik po kliku, z adresami komórek i ścieżkami na wstążce.
+
+**Instrukcja dla E7–E9:** [`E7-E9/INSTRUKCJA-KROK-PO-KROKU.md`](./E7-E9/INSTRUKCJA-KROK-PO-KROKU.md) – sortowanie, sumy częściowe, tabele, filtry, tabele przestawne, wykresy przestawne i obiekty OLE.
 
 ---
 
@@ -39,3 +41,25 @@ Część II: Zaawansowane formuły, modelowanie, analiza decyzyjna i wizualizacj
 * **E4**: Adresowanie mieszane komórek i funkcje wyszukiwania (obliczanie wag i kosztów składników, obsługa błędów `JEŻELI`, `MAX`, `INDEKS` + `PODAJ.POZYCJĘ`, `WYSZUKAJ.PIONOWO`).
 * **E5**: Analiza warunkowa „co-jeśli” (narzędzie Szukaj wyniku, tabele danych, menedżer scenariuszy: Bieżący, Optymistyczny, Pesymistyczny).
 * **E6**: Sporządzanie wykresów (kolumnowy kosztów składników w czasie, kołowy struktury rocznych kosztów, liniowy przebiegu kosztów całkowitych; tytuły, legendy, osie i etykiety danych).
+
+
+---
+
+### 📁 [`E7-E9/`](./E7-E9/)
+Część III: Organizowanie danych w tabele, tabele i wykresy przestawne oraz osadzanie obiektów.
+* **`TI.1_Excel.E7+E8+E9_InstrukcjaLab.pdf`** – treść poleceń laboratoryjnych (tematy E7, E8, E9).
+* **`TI.1_Excel.E7+E8+E9_PlikRoboczy.xlsx`** – ukończony skoroszyt: 10 arkuszy, 2 tabele, 7 tabel przestawnych i 2 wykresy przestawne.
+* **`RAPORT-E9-Hog-Dog.docx`** – raport dla zarządu z tabelą, dwoma wykresami i opisem metod osadzania obiektów.
+* **`README.md`** – omówienie pojęć, wyników i odpowiedzi na pytania z poleceń.
+* **`INSTRUKCJA-KROK-PO-KROKU.md`** – dokładna instrukcja wykonania każdego polecenia.
+
+**Wynik końcowy skoroszytu:**
+* Sprzedaż łączna: **2 683 073** (385 rekordów po dodaniu wiersza 31.12.2024).
+* Konspekt: suma końcowa **2 682 573** (kopia sprzed dodania wiersza).
+* Filtr Hogwart, 01.07–31.08.2024: **333 584** (32 widoczne wiersze).
+* Kwartały: Q1 **470 170**, Q2 **605 787**, Q3 **765 600**, Q4 **841 516**.
+
+**Zakres tematyczny:**
+* **E7**: Konspekt i sumy częściowe, tabele Excela, nazwa i styl tabeli, kolumna Kwartał, sortowanie i filtrowanie, wiersz sumy.
+* **E8**: Tabele przestawne (miasta, kwartały, miesiące, udział procentowy) oraz wykresy przestawne.
+* **E9**: Osadzanie i łączenie obiektów w dokumencie Word (OLE, Wklej specjalnie, Wklej łącze, obiekty wykresów).
