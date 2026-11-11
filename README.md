@@ -6,7 +6,7 @@ Zakres: **E1–E9** (trzy części, wszystkie zadania wykonane).
 
 **Instrukcja dla E1–E6:** [`INSTRUKCJA-KROK-PO-KROKU.md`](./INSTRUKCJA-KROK-PO-KROKU.md) – każde polecenie klik po kliku, z adresami komórek i ścieżkami na wstążce.
 
-**Instrukcja dla E7–E9:** [`E7-E9/INSTRUKCJA-KROK-PO-KROKU.md`](./E7-E9/INSTRUKCJA-KROK-PO-KROKU.md) – sortowanie, sumy częściowe, tabele, filtry, tabele przestawne, wykresy przestawne i obiekty OLE.
+**Instrukcja dla E7–E9:** [`E7-E9/README.md`](./E7-E9/README.md) – pełny przewodnik (konspekt, tabele, filtry, tabele i wykresy przestawne, obiekty OLE w Wordzie) wraz z odpowiedziami na pytania.
 
 ---
 
@@ -48,10 +48,9 @@ Część II: Zaawansowane formuły, modelowanie, analiza decyzyjna i wizualizacj
 ### 📁 [`E7-E9/`](./E7-E9/)
 Część III: Organizowanie danych w tabele, tabele i wykresy przestawne oraz osadzanie obiektów.
 * **`TI.1_Excel.E7+E8+E9_InstrukcjaLab.pdf`** – treść poleceń laboratoryjnych (tematy E7, E8, E9).
-* **`TI.1_Excel.E7+E8+E9_PlikRoboczy.xlsx`** – ukończony skoroszyt: 10 arkuszy, 2 tabele, 7 tabel przestawnych i 2 wykresy przestawne.
-* **`RAPORT-E9-Hog-Dog.docx`** – raport dla zarządu z tabelą, dwoma wykresami i opisem metod osadzania obiektów.
-* **`README.md`** – omówienie pojęć, wyników i odpowiedzi na pytania z poleceń.
-* **`INSTRUKCJA-KROK-PO-KROKU.md`** – dokładna instrukcja wykonania każdego polecenia.
+* **`TI.1_Excel.E7+E8+E9_PlikRoboczy_rozwiazanie.xlsx`** – ukończony skoroszyt: 10 arkuszy, 2 tabele (styl `TableStyleMedium11`), 7 tabel przestawnych (`PivotStyleMedium4`) i 2 wykresy przestawne.
+* **`TI.1_Word.E9_Raport_HogDog.docx`** – samodzielny raport dla zarządu z tabelami i wykresami przestawnymi z Excela (bez zewnętrznych łączy).
+* **`README.md`** – kompletny przewodnik po każdym poleceniu i podpunkcie (teoria, kroki, liczby kontrolne, odpowiedzi na pytania).
 
 **Wynik końcowy skoroszytu:**
 * Sprzedaż łączna: **2 683 073** (385 rekordów po dodaniu wiersza 31.12.2024).
