@@ -9,8 +9,8 @@ Ten folder zawiera komplet materiałów do części III laboratoriów z przedmio
 | Plik | Opis |
 | :--- | :--- |
 | [`TI.1_Excel.E7+E8+E9_InstrukcjaLab.pdf`](./TI.1_Excel.E7+E8+E9_InstrukcjaLab.pdf) | Oryginalna treść zadań laboratoryjnych E7, E8 i E9. |
-| [`TI.1_Excel.E7+E8+E9_PlikRoboczy_rozwiazanie.xlsx`](./TI.1_Excel.E7+E8+E9_PlikRoboczy_rozwiazanie.xlsx) | Ukończony skoroszyt Excela: 10 arkuszy, 2 tabele (zielony styl `TableStyleMedium11`), 7 tabel przestawnych (`PivotStyleMedium4`) i 2 wykresy przestawne. |
-| [`TI.1_Word.E9_Raport_HogDog.docx`](./TI.1_Word.E9_Raport_HogDog.docx) | Czysty raport dla zarządu firmy Hog-Dog sp. z o.o. (tekst podsumowujący, dwie tabele i dwa wykresy przestawne). Plik działa całkowicie niezależnie od zewnętrznego pliku Excela. |
+| [`TI.1_Excel.E7+E8+E9_PlikRoboczy_rozwiazanie.xlsx`](./TI.1_Excel.E7+E8+E9_PlikRoboczy_rozwiazanie.xlsx) | Ukończony skoroszyt Excela: 10 arkuszy, 2 tabele (`TableStyleMedium11` zgodnie z pkt 2c), 7 tabel przestawnych (domyślny styl `PivotStyleLight16`) i 2 wykresy przestawne. |
+| [`TI.1_Word.E9_Raport_HogDog.docx`](./TI.1_Word.E9_Raport_HogDog.docx) | Surowy plik Worda zawierający wyłącznie wklejone z Excela tabele przestawne i oba wykresy przestawne (bez tekstu i nagłówków), całkowicie niezależny od zewnętrznego pliku Excela. |
 | [`README.md`](./README.md) | Ten przewodnik: teoria, instrukcja krok po kroku do każdego podpunktu, liczby kontrolne i gotowe odpowiedzi na pytania z PDF-a. |
 
 ---
@@ -193,7 +193,7 @@ Na karcie **Projektowanie → Układ → Układ raportu** wybierasz sposób wyś
 | **Konspekt** *(wymagany w 1b i 1c!)* | Każde pole dostaje osobną kolumnę, a wiersz nadrzędny ma własny wiersz sumy nad dziećmi | W osobnych kolumnach | **Na górze grupy** |
 | **Tabelaryczny** | Każde pole ma osobną kolumnę, a pierwszy element podrzędny stoi w tym samym wierszu co rodzic | W osobnych kolumnach | **Na dole grupy** |
 
-> **Uwaga przy tworzeniu:** Ustaw kursor w tabeli `SprzedażTygodniowa` w arkuszu `EWIDENCJA` i wybierz **Wstawianie → Tabele → Tabela przestawna → Z tabeli/zakresu → Nowy arkusz**. W naszym pliku wszystkie 7 tabel przestawnych korzysta ze wspólnej pamięci podręcznej (*PivotCache*) oraz zielonego stylu `PivotStyleMedium4`.
+> **Uwaga przy tworzeniu:** Ustaw kursor w tabeli `SprzedażTygodniowa` w arkuszu `EWIDENCJA` i wybierz **Wstawianie → Tabele → Tabela przestawna → Z tabeli/zakresu → Nowy arkusz**. W naszym pliku wszystkie 7 tabel przestawnych korzysta ze wspólnej pamięci podręcznej (*PivotCache*) oraz domyślnego stylu `PivotStyleLight16`.
 
 ---
 
@@ -273,11 +273,10 @@ Windowsowy mechanizm **OLE** (*Object Linking and Embedding*) pozwala umieszcza�
 | **Wklejony wykres z przerwanym łączem** | Natywny wektorowy wykres w `.docx` | **Nie** (po użyciu *Przerwij łącze*) | Zachowuje idealną jakość wektorową i działa na każdym komputerze bez pliku Excela. |
 
 > **Co zawiera plik [`TI.1_Word.E9_Raport_HogDog.docx`](./TI.1_Word.E9_Raport_HogDog.docx)?**
-> Zgodnie z poleceniem dokument zawiera wyłącznie zwięzły raport dla zarządu firmy Hog-Dog sp. z o.o. oraz obiekty z Excela (bez odpowiedzi na pytania ćwiczeniowe):
-> 1. Krótkie wprowadzenie liczbowe (sprzedaż całkowita, podział na kraje, najlepsze/najsłabsze miasto, trend kwartalny).
-> 2. Tabelę `Sprzedaż w miastach` wklejoną jako natywną tabelę Worda.
-> 3. Tabelę `Sprzedaż kwartalna w miastach` (`Tabelarycznie`) osadzoną jako obiekt Excela **bez zewnętrznego łącza** (`word/embeddings/Microsoft_Excel_Worksheet.xlsx`).
-> 4. Oba wykresy przestawne (`Sprzedaż kwartalna w miastach` oraz `Kwartalna sprzedaż według krajów`) wklejone i odłączone przez *Przerwij łącze*, dzięki czemu cały dokument `.docx` jest **w 100% samodzielny** i otwiera się poprawnie nawet po przeniesieniu na inny komputer bez Excela.
+> Zgodnie z Twoim założeniem dokument zawiera wyłącznie surowe obiekty z Excela (bez tekstu, nagłówków i bez odpowiedzi na pytania):
+> 1. Tabelę `Sprzedaż w miastach` wklejoną jako natywną tabelę Worda.
+> 2. Tabelę `Sprzedaż kwartalna w miastach` (`Tabelarycznie`) osadzoną jako obiekt Excela **bez zewnętrznego łącza** (`word/embeddings/Microsoft_Excel_Worksheet.xlsx`).
+> 3. Oba wykresy przestawne (`Sprzedaż kwartalna w miastach` oraz `Kwartalna sprzedaż według krajów`) wklejone i odłączone przez *Przerwij łącze*, dzięki czemu cały dokument `.docx` jest **w 100% samodzielny** i otwiera się poprawnie nawet po przeniesieniu na inny komputer bez Excela.
 
 ---
 

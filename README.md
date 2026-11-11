@@ -48,8 +48,8 @@ Część II: Zaawansowane formuły, modelowanie, analiza decyzyjna i wizualizacj
 ### 📁 [`E7-E9/`](./E7-E9/)
 Część III: Organizowanie danych w tabele, tabele i wykresy przestawne oraz osadzanie obiektów.
 * **`TI.1_Excel.E7+E8+E9_InstrukcjaLab.pdf`** – treść poleceń laboratoryjnych (tematy E7, E8, E9).
-* **`TI.1_Excel.E7+E8+E9_PlikRoboczy_rozwiazanie.xlsx`** – ukończony skoroszyt: 10 arkuszy, 2 tabele (styl `TableStyleMedium11`), 7 tabel przestawnych (`PivotStyleMedium4`) i 2 wykresy przestawne.
-* **`TI.1_Word.E9_Raport_HogDog.docx`** – samodzielny raport dla zarządu z tabelami i wykresami przestawnymi z Excela (bez zewnętrznych łączy).
+* **`TI.1_Excel.E7+E8+E9_PlikRoboczy_rozwiazanie.xlsx`** – ukończony skoroszyt: 10 arkuszy, 2 tabele (`TableStyleMedium11`), 7 tabel przestawnych (domyślny styl `PivotStyleLight16`) i 2 wykresy przestawne.
+* **`TI.1_Word.E9_Raport_HogDog.docx`** – surowe tabele i wykresy przestawne wklejone z Excela (bez tekstu i nagłówków, bez zewnętrznych łączy).
 * **`README.md`** – kompletny przewodnik po każdym poleceniu i podpunkcie (teoria, kroki, liczby kontrolne, odpowiedzi na pytania).
 
 **Wynik końcowy skoroszytu:**
